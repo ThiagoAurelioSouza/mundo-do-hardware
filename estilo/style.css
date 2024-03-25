@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+
+/* nomes das fontes protest strike e alatsi static*/
+
+:root {
+    --cor0: #FFFFFF;
+    --cor1: #84B3F0;
+    --cor2: #3E73DC;
+    --cor3: #1C58FF;
+    --cor4: #182d68;
+    --cor5: #142657;
+
+    --font-padrão: Arial, Verdana, Helvetica, Sans-Serif;
+    --fonte-titulo: "Alatsi", cursive;
+    --font-alternativa: "Protest", cursive;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: rgb(4, 7, 12);
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor5));
+    text-align: center;
+    min-height: 220px;
+    padding-top: 30px;
+    
+}
+
+header > h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+   
+}
+
+ h1 {
+    padding: 20px;
+    color: #182d68;
+    font-family: var(--fonte-titulo);
+    font-size: 2.0em;
+}
+
+.negrito {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+
+i#burguer {
+    background-color: var(--cor5);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: #000000;
+}
+
+menu {
+    display: none;
+    text-align: center;
+    
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: var(--cor5);
+    color: white;
+    border-top: 2px solid rgba(231, 237, 251, 0.988);
+    box-shadow: inset 0.5px 1px 3px 3px rgb(85, 170, 203);
+}
+
+menu > ul > li > a:hover {
+    background-color:rgb(249, 248, 255);
+    color: #000000;
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+div#imagem {
+    background: #142657 url(../imagens/fundo01.1000.jpeg) no-repeat;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+}
+
+div.bloco {
+    background-color: #d5e2ff;
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 1.2em;
+    padding: 20px 20px;
+    margin-top: 20px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+    text-indent: 20px;
+    line-height: 1.8em;
+    box-shadow: 1px 1px 4px 3px rgba(0, 0, 0, 0.459);
+}
+
+article >div.bloco > h2 {
+    padding: 20px;
+    font-family: var(--fonte-titulo);
+    font-size: 1.8em;
+    color: #182d68;
+    text-align: center;
+}
+
+article >div.bloco> h3 {
+    
+    color: #fcfcfc;
+    font-family: var(--fonte-titulo);
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, #092e63, transparent);
+
+}
+ 
+p {
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 20px;
+    line-height: 2em;
+    margin: auto;
+    text-indent: 20px;
+
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: #84B3F0;
+}

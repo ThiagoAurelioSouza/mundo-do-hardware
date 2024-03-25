@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo do Hardware</title>
+
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
+
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Explorando o Mundo do Hardware</h1>
+        <p class="negrito">O hardware é a base sobre a qual os sonhos digitais são construídos.</p>
+
+        
+    </header>
+    <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itensdomenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </menu>
+
+
+    <main>
+        <div id="imagem"></div>
+        <article>
+
+
+            
+            <div  class="bloco">
+                <h1>
+                    O que é hardware?
+                </h1>
+                
+                    <P>
+                        Hardware refere-se aos componentes físicos e tangíveis de um sistema computacional ou dispositivo eletrônico. Em outras palavras, são todas as partes físicas que se pode tocar e manipular. Ele fornece a estrutura física e os recursos necessários para que o software (programas, aplicativos, sistema operacional, etc.) possa ser executado e funcione corretamente.
+                    </P>
+                    <p>
+                        Aprender sobre hardware permite que os usuários compreendam como os diferentes componentes interagem entre si, como otimizar o desempenho de um sistema e como realizar upgrades ou manutenções corretamente. Além disso, compreender a importância do hardware é essencial para tomar decisões informadas ao escolher ou projetar um dispositivo ou sistema, garantindo que atenda às necessidades específicas de uso e aplicação.
+                    </p>
+            </div>
+            <div class="bloco">
+            <h2>Componentes de Hardware</h2>
+            <p> Abaixo, veremos sobre alguns exemplos de hardware:</p>
+
+            <h3>CPU</h3>
+            <p>
+                A CPU, ou Unidade Central de Processamento, é o componente principal de um computador, responsável por executar as instruções de programas e manipular dados. Funciona como o cérebro do sistema, processando informações de forma rápida e eficiente. Uma das características fundamentais da CPU é sua arquitetura, que pode variar dependendo do tipo de dispositivo em que é utilizada. Por exemplo, arquiteturas comuns incluem x86, encontrada em computadores pessoais, e ARM, mais comum em dispositivos móveis e sistemas embarcados. Além disso, as CPUs modernas frequentemente contêm múltiplos núcleos, permitindo a execução de várias instruções simultaneamente e melhorando o desempenho geral do sistema.
+            </p>
+
+            <h3>Placa Mãe</h3>
+            <p>
+                A placa-mãe é um componente fundamental em qualquer computador, servindo como uma plataforma central que interconecta todos os outros componentes. Ela fornece a base física e elétrica para que o processador, memória RAM, placas de expansão, dispositivos de armazenamento e outros periféricos possam funcionar em conjunto de maneira harmoniosa. Em essência, a placa-mãe é como o esqueleto de um computador, proporcionando estrutura e suporte para os diversos elementos que compõem um sistema.
+
+                Fisicamente, a placa-mãe é um circuito impresso de várias camadas, com uma série de conectores e slots onde os componentes podem ser instalados. Ela é projetada para acomodar diferentes tipos de CPUs, sendo compatível com uma variedade de soquetes de processadores. Além disso, a placa-mãe também possui slots de memória RAM, que permitem a instalação e expansão da capacidade de memória do sistema.
+                </p>
+
+            <h3>Memória Ram</h3>
+                <p>
+                A memória RAM, ou Memória de Acesso Aleatório, é um tipo de memória volátil usada em computadores e outros dispositivos eletrônicos para armazenar dados e instruções temporariamente enquanto o sistema está em funcionamento. Ao contrário do armazenamento permanente, como discos rígidos ou SSDs, a RAM é de acesso rápido e temporário, o que a torna fundamental para o desempenho geral do sistema. Quando você executa um programa ou abre um arquivo, parte desses dados e instruções são carregados na memória RAM para que o processador possa acessá-los rapidamente.
+
+                A RAM é composta por células de memória que podem ser acessadas de forma aleatória, ou seja, não é necessário percorrer os dados em sequência para acessar uma determinada informação. Isso permite um acesso rápido aos dados, tornando-a essencial para a execução de aplicativos e processos em um sistema operacional.
+                </p>
+
+            <h3>Disco Rígido</h3>
+             <p>
+            Um disco rígido, também conhecido como HDD (Hard Disk Drive), é um dos componentes fundamentais de armazenamento em um computador. Ele consiste em um ou mais discos magnéticos revestidos com material sensível à magnetização, que giram rapidamente dentro de uma caixa hermeticamente fechada. Esses discos são montados em um eixo, e um braço mecânico com uma cabeça de leitura/gravação se move sobre eles para acessar os dados.
+
+            A capacidade de armazenamento de um disco rígido pode variar consideravelmente, com modelos comuns disponíveis em capacidades de várias centenas de gigabytes a vários terabytes. Essa capacidade de armazenamento é vital para armazenar uma ampla variedade de dados, incluindo documentos, fotos, vídeos, aplicativos e sistemas operacionais.
+             </p>
+
+            <h3>SSD</h3>
+            <P>
+            Um SSD, ou Solid State Drive, é uma forma de armazenamento de dados que se tornou cada vez mais popular nos últimos anos devido às suas vantagens significativas sobre os discos rígidos tradicionais (HDDs). Ao contrário dos HDDs, que usam discos magnéticos rotativos para armazenar e acessar dados, os SSDs não possuem partes móveis. Em vez disso, eles usam memória flash NAND para armazenar dados de forma eletrônica, o que resulta em tempos de acesso muito mais rápidos e um desempenho geral superior.
+
+            Uma das principais vantagens do SSD é sua velocidade. Como não há partes móveis envolvidas no processo de leitura e gravação de dados, os SSDs oferecem tempos de acesso muito mais rápidos em comparação com os HDDs. Isso significa que os sistemas que utilizam SSDs geralmente iniciam mais rapidamente, abrem aplicativos mais rapidamente e proporcionam uma experiência geral mais ágil e responsiva para o usuário.
+            </P>
+
+            <h3>Placa de Vídeo</h3>
+            <p>
+            A placa de vídeo, também conhecida como GPU (Unidade de Processamento Gráfico), é um componente fundamental em computadores e dispositivos que lidam com gráficos intensivos, como jogos, edição de vídeo e modelagem 3D. Ao contrário da CPU, que é responsável por processar instruções gerais do sistema, a GPU é otimizada para processar grandes quantidades de dados relacionados à renderização de gráficos e imagens. Ela contém um conjunto de núcleos de processamento especializados, chamados de shaders, que são projetados para lidar com cálculos gráficos de forma eficiente.
+
+            A principal função da placa de vídeo é processar e renderizar imagens em tempo real, produzindo saída visual para ser exibida em um monitor ou tela. Isso inclui a renderização de objetos 3D, texturas, sombras, efeitos de luz e outras características visuais presentes em jogos e aplicativos gráficos. Quanto mais potente e avançada a placa de vídeo, maior será sua capacidade de lidar com gráficos complexos e de alta resolução, proporcionando uma experiência visual mais imersiva e realista.      
+            </p>
+
+            <h3>Coolers e Dissipadores de Calor</h3>
+            <p>
+            Os coolers e dissipadores de calor são componentes essenciais em computadores e outros dispositivos eletrônicos para controlar a temperatura dos componentes, especialmente da CPU e da GPU, que podem gerar uma quantidade significativa de calor durante a operação. Os dissipadores de calor são geralmente feitos de materiais altamente condutores de calor, como cobre ou alumínio, e são projetados com uma grande área de superfície para dissipar o calor de forma eficiente. Eles são montados diretamente sobre os componentes que geram calor, como a CPU ou a GPU, para absorver o calor e transferi-lo para o ar ambiente.
+
+            Os coolers, por outro lado, são dispositivos que ajudam a dissipar o calor absorvido pelos dissipadores de calor. Eles geralmente consistem em um ventilador montado em um dissipador de calor ou em um radiador. O ventilador é responsável por circular o ar ao redor do dissipador de calor, removendo o calor acumulado e mantendo os componentes a uma temperatura operacional segura. Os coolers podem variar em tamanho, design e capacidade de resfriamento, dependendo das necessidades específicas do sistema e da quantidade de calor gerada pelos componentes.
+            </p>
+
+            <h3>Pen Drive</h3>
+            <p>
+            Um pen drive, também conhecido como unidade flash USB, é um dispositivo de armazenamento portátil que se conecta a um computador através de uma porta USB. Ele é pequeno, leve e possui capacidade de armazenamento variável, geralmente entre alguns megabytes até vários terabytes. O pen drive consiste em uma memória flash, que é uma forma de armazenamento de estado sólido, o que significa que não possui partes móveis. Isso o torna mais durável e resistente a choques do que os discos rígidos tradicionais.
+
+            O formato típico de um pen drive é semelhante a uma pequena chave ou caneta, com um conector USB integrado que pode ser inserido em uma porta USB de um computador ou outro dispositivo compatível. Essa conexão USB permite transferir dados rapidamente entre o pen drive e o computador, tornando-o uma ferramenta conveniente para transportar arquivos entre diferentes locais.
+            </p>
+            
+            <h3>Monitor</h3>
+            <p>Um monitor é um dispositivo de saída fundamental em sistemas de computador, usado para exibir informações visuais geradas pelo computador. Funciona convertendo sinais eletrônicos em imagens visíveis na tela. Os monitores estão disponíveis em uma variedade de tamanhos, resoluções e tecnologias, oferecendo opções para atender às necessidades de diferentes usuários e aplicações. Um aspecto chave dos monitores é a sua resolução, que determina a quantidade de detalhes que podem ser exibidos na tela. Resoluções mais altas resultam em imagens mais nítidas e detalhadas. Além disso, os monitores modernos utilizam uma variedade de tecnologias de tela, incluindo LCD (Liquid Crystal Display), LED (Light Emitting Diode), OLED (Organic Light Emitting Diode) e CRT (Cathode Ray Tube). Cada uma dessas tecnologias tem suas próprias características em termos de qualidade de imagem, consumo de energia e tamanho. No entanto, a tecnologia LCD é a mais comum atualmente, devido à sua eficiência energética, tamanho compacto e qualidade de imagem decente.</p>
+
+            <h3>Gabinete</h3>
+            <p>
+            O gabinete de um computador é a estrutura que abriga todos os componentes internos, fornecendo proteção e organização para o sistema. Geralmente feito de metal ou plástico resistente, o gabinete vem em diferentes tamanhos e designs para acomodar várias configurações de hardware. Sua principal função é fornecer um ambiente seguro para os componentes eletrônicos, protegendo-os contra poeira, umidade e danos físicos. Além disso, o gabinete é projetado para facilitar o acesso aos componentes internos, permitindo a instalação, remoção e manutenção dos mesmos. Ele possui aberturas e portas para conexões de periféricos, como monitores, teclados, e dispositivos de armazenamento externo. O design do gabinete também pode incluir recursos para ventilação, como ventoinhas e grades de ventilação, para manter os componentes internos resfriados durante o funcionamento do computador. Alguns gabinetes vêm com recursos adicionais, como compartimentos para gerenciamento de cabos, janelas laterais transparentes para exibição dos componentes internos, e portas USB e de áudio no painel frontal para fácil acesso. Em resumo, o gabinete desempenha um papel fundamental na proteção e organização dos componentes de um computador, ao mesmo tempo em que oferece funcionalidades para facilitar o uso e manutenção do sistema.
+            </p>
+
+            <h3>Teclado e Mouse</h3>
+            <p>
+            O teclado e o mouse são dois dos dispositivos de entrada mais fundamentais e amplamente utilizados em computação. O teclado, com sua disposição de teclas alfanuméricas, é projetado para entrada de texto e comandos. Cada tecla representa um caractere específico, permitindo aos usuários escrever documentos, enviar e-mails, programar, entre outras tarefas. Além das teclas alfanuméricas, o teclado também inclui teclas especiais, como teclas de função, teclas de controle, teclas de navegação e teclas de atalho, que facilitam a interação com o sistema operacional e os aplicativos. Por outro lado, o mouse é um dispositivo de entrada manual usado para controlar o cursor na tela do computador. Com um design ergonômico, o mouse é manipulado pela mão do usuário e movido sobre uma superfície plana. Com botões clicáveis e uma ou mais rodas de rolagem, o mouse permite que os usuários cliquem, arrastem e soltem objetos na interface gráfica do computador. Além disso, o mouse é essencial para interagir com elementos gráficos, como ícones, janelas e menus, tornando a navegação e a operação do computador mais intuitivas e eficientes. Juntos, o teclado e o mouse formam uma interface de entrada poderosa que permite aos usuários interagirem com seus computadores de forma eficaz e confortável, contribuindo para uma experiência de computação mais produtiva e agradável.
+            </p>
+            <h3>Impressora</h3>
+            <p>
+            Uma impressora é um dispositivo fundamental em ambientes de trabalho e domésticos, projetado para transformar documentos digitais em formas físicas. Ela opera através de um processo de saída de dados que envolve a transferência de informações eletrônicas para o papel. As impressoras estão disponíveis em uma variedade de tipos e tecnologias, incluindo jato de tinta, laser e matriciais, cada uma com características específicas que atendem a diferentes necessidades de impressão.         
+            </p>
+            <aside>
+                <p>
+                    Então é isso! Espero que você tenha gostado do nosso artigo.     
+                </p>
+            </aside>
+        </article>
+        
+    </main>
+    </div>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 760) {
+                itensdomenu.style.display = 'block'
+            } else {
+                itensdomenu.style.display = "none"
+            }
+        }
+
+        function clickMenu() {
+            if (itensdomenu.style.display == 'block') {
+            itensdomenu.style.display = 'none'
+            } else {
+                itensdomenu.style.display = 'block'
+            }
+        }
+    </script>
+    <footer>Site criado por Thiago Aurélio</footer>
+</body>
+</html>
