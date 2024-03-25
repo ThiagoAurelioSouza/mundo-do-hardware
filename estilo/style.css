@@ -10,7 +10,7 @@
 :root {
     --cor0: #FFFFFF;
     --cor1: #84B3F0;
-    --cor2: #3E73DC;
+    --cor2: #3E73DC; 
     --cor3: #1C58FF;
     --cor4: #182d68;
     --cor5: #142657;
@@ -52,6 +52,7 @@ header > h1 {
     color: #182d68;
     font-family: var(--fonte-titulo);
     font-size: 2.0em;
+    text-align: center;
 }
 
 .negrito {
