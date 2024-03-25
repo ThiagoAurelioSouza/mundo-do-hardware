@@ -10,7 +10,7 @@
 :root {
     --cor0: #FFFFFF;
     --cor1: #84B3F0;
-    --cor2: #3E73DC; 
+    --cor2: #3E73DC;
     --cor3: #1C58FF;
     --cor4: #182d68;
     --cor5: #142657;
@@ -48,11 +48,11 @@ header > h1 {
 }
 
  h1 {
+    text-align: center;
     padding: 20px;
     color: #182d68;
     font-family: var(--fonte-titulo);
     font-size: 2.0em;
-    text-align: center;
 }
 
 .negrito {
@@ -126,7 +126,6 @@ div.bloco {
     background-color: #d5e2ff;
     padding-top: 20px;
     text-align: justify;
-    font-size: 1.2em;
     padding: 20px 20px;
     margin-top: 20px;
     border-bottom-left-radius:10px;
@@ -135,6 +134,7 @@ div.bloco {
     line-height: 1.8em;
     box-shadow: 1px 1px 4px 3px rgba(0, 0, 0, 0.459);
 }
+
 
 article >div.bloco > h2 {
     padding: 20px;
@@ -155,7 +155,7 @@ article >div.bloco> h3 {
  
 p {
     text-align: justify;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: var(--font-padrão);
     font-size: 1em;
     padding: 20px;
     line-height: 2em;
